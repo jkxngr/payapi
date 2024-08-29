@@ -1,0 +1,45 @@
+.header_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+.header_img_block {
+  display: flex;
+  gap: 64px;
+}
+.header_list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.header_link {
+  color: #36536b;
+  font-size: 15px;
+  font-weight: 700;
+}
+.header_btn {
+  padding: 16px 24px;
+  color: #fbfcfe;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.115px;
+  border-radius: 24px;
+  background: #ba4270;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
+.header_icon {
+  width: 28px;
+  height: 17px;
+  border: none;
+  background-color: transparent;
+  background-image: url("/img/hero-icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: none;
+}
+@media screen and (max-width: 650px) {
+  .header_icon {
+    display: inline-block;
+  }
+}

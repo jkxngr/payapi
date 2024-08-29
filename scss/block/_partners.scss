@@ -1,0 +1,53 @@
+.partners_section {
+  background-image: url("/img/tesla-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 75px;
+}
+.partners_block {
+  display: flex;
+  padding: 100px 0;
+  align-items: center;
+  gap: 131px;
+}
+.partners_info_block {
+  max-width: 445px;
+}
+.partners_title {
+  color: #fbfcfe;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.369px;
+  margin-bottom: 24px;
+}
+.partners_text {
+  color: #b9bec2;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px; /* 186.667% */
+  margin-bottom: 32px;
+}
+.partners_btn {
+  color: #fbfcfe;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.115px;
+  padding: 16px 32px;
+  border-radius: 24px;
+  border: 1px solid #fbfcfe;
+}
+.partners_logo_block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 62px;
+  max-width: 568px;
+}
+@media screen and (max-width: 940px) {
+  .partners_block {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
